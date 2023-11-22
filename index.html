@@ -7,43 +7,17 @@
   </head>
   <body>
     <header>
-      <!-- Navigation bar goes here -->
+      <nav>
+  <ul>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+    <!-- Add other pages as needed -->
+  </ul>
+</nav>
     </header>
     <main>
       {{ content }}
     </main>
-    <nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-    <!-- Add other pages as needed -->
-  </ul>
-</nav>
-  <nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-    <!-- Add other pages as needed -->
-  </ul>
-</nav>
-    body {
-  font-family: Arial, sans-serif;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-/* Add more styles as needed */
-
-
-
     <footer>
       <!-- Footer content goes here -->
     </footer>
