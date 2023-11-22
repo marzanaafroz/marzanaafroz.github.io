@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-   
-
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-304-DL3 - Hassan Raja</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/ethics/' | relative_url }}">Ethics</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <p>© {{ site.time | date: '%Y' }}. All Rights Reserved.</p>
-  </footer>
+    <header>
+        <div class="header-content">
+            <h1>IT-304-DL3 - Hassan Raja</h1>
+            <h2>Assignment 4</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ethics.html">Ethics</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <p>Due to the power of "IT" and technology in general, it's simply essential that human ethics are involved</p>
+        <p>Since the field of IT is so expansive, I chose to speak on the ethics of software development</p>
+        <p>This website was designed for an assignment regarding IT Ethics. Template of the site was created by Professor Myeong Lee.</p>
+        <p>Jekyll and Github Pages are the main technologies used.</p>
+    </main>
+    <footer>
+        <img src="mason.png" alt="George Mason University">
+        <p>IT Ethics Assignment from Marzana Afroz</p>
+    </footer>
 </body>
- 
-
 </html>
