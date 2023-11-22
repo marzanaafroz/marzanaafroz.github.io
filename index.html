@@ -1,38 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- ... other meta tags ... -->
+  <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
-  <!-- ... other scripts or links ... -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-
-<header class="site-header" role="banner">
-  <div class="wrapper">
-    <nav class="site-nav">
-      <!-- ... navigation items ... -->
-      <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
-      <a class="page-link" href="{{ '/ethics' | relative_url }}">Ethics</a>
-      <!-- ... additional navigation links ... -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/ethics/' | relative_url }}">Ethics</a></li>
+      </ul>
     </nav>
-  </div>
-</header>
-
-<main class="page-content" aria-label="Content">
-  <div class="wrapper">
+  </header>
+  <main>
     {{ content }}
-  </div>
-</main>
-
-<footer class="site-footer">
-  <div class="wrapper">
-    <!-- ... footer content ... -->
-  </div>
-</footer>
-
+  </main>
+  <footer>
+    <p>© {{ site.time | date: '%Y' }}. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
