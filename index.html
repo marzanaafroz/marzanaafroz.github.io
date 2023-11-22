@@ -4,24 +4,7 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/ethics/' | relative_url }}">Ethics</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <p>© {{ site.time | date: '%Y' }}. All Rights Reserved.</p>
-  </footer>
-</body>
-  body {
+   body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -63,5 +46,23 @@ footer {
   bottom: 0;
   width: 100%;
 }
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/ethics/' | relative_url }}">Ethics</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>© {{ site.time | date: '%Y' }}. All Rights Reserved.</p>
+  </footer>
+</body>
+ 
 
 </html>
