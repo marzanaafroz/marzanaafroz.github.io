@@ -8,3 +8,5 @@ Dr. Ann Cavoukian's concept of Privacy by Design has become a benchmark in data 
 As data privacy regulations like the GDPR and CCPA evolve, IT professionals must navigate the distinction between security and privacy. This means not only safeguarding data against external threats but also ensuring it's collected and used in ways that respect user autonomy and consent.
 
 Commitment to data privacy in IT is shown when companies transparently collect, use, and share data, demonstrating respect for user privacy. Such practices are vital for maintaining customer trust and accountability. The use of Github Pages and a template by Professor Myeong Lee for this website aligns with the transparent and ethical use of technology.
+
+Link to see the website: https://marzanaafroz.github.io/index.html
